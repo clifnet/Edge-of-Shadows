@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3806737097308883848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5968709234805150230}
+  - component: {fileID: 8763826022779904101}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5968709234805150230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806737097308883848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8763826022779904101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806737097308883848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d8b8e76fd055054b908b03411387685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientClip: {fileID: 8300000, guid: 25a9fe7a37f8b4d52ade29e7f7d0f4da, type: 3}
+  musicClip: {fileID: 0}
+  ambientShdowWorldClip: {fileID: 8300000, guid: 0220f13104b52a846b3b9c472b061f59,
+    type: 3}
+  walkStepClips:
+  - {fileID: 8300000, guid: 464f5b6340223e845b69574abb82c35a, type: 3}
+  - {fileID: 8300000, guid: 1a40139b4f572ce4b91b20b592de2d82, type: 3}
+  - {fileID: 8300000, guid: 9ae79f62a12b85a4f87de2f272c9f983, type: 3}
+  - {fileID: 8300000, guid: 03522e02c3043ea48badcc6268a77d8a, type: 3}
+  droppedCrash: {fileID: 8300000, guid: 6dbad24f8753a8d49b54643af31dfb54, type: 3}
+  wallSlide: {fileID: 8300000, guid: 590d5acd76d0a3f4d95b3d661be86827, type: 3}
+  doubleJump: {fileID: 8300000, guid: d3a04019287204c4a9863b270ad16ae6, type: 3}
+  evade: {fileID: 8300000, guid: 558dedd7dbf1d6a44b530c74bdd1abf8, type: 3}
+  swordAttack:
+  - {fileID: 8300000, guid: f8f48ee67811ee9449dbe4f7f90d66fd, type: 3}
+  - {fileID: 8300000, guid: 5c0efa421cabfe64592aa06418805174, type: 3}
+  swordImpact: {fileID: 8300000, guid: 300482ec32b5ac146a8c7c41ede8114e, type: 3}
+  ambientGroup: {fileID: -1792505644585393103, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  ambientShadowWorldGroup: {fileID: 8139801705061592043, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  musicGroup: {fileID: -524230515553771230, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  playerGroup: {fileID: -8308631241064275195, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  particlesGroup: {fileID: 6101242983399799091, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  SFXGroup: {fileID: 2320469044206914667, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}
+  physicWorld: {fileID: 24500006, guid: f30d6ec33a22e2947ac409d3aa0c79be, type: 2}
+  shadowWorld: {fileID: 1753914427209396069, guid: f30d6ec33a22e2947ac409d3aa0c79be,
+    type: 2}

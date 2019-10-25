@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FxTemporaire
+  - Shadow World Platforms
+  - Platforms
+  - Shadow Enemy
+  - Physic Enemy
+  - Lighting
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Platforms
+  - Player
+  - Foreground
+  - Enemy
+  - EnemiesChilds
+  - PostProcessing
+  - ShadowWorldPlatforms
+  - ShadowEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1202986215
+    locked: 0
+  - name: Platforms
+    uniqueID: 3239008301
+    locked: 0
+  - name: Enemies
+    uniqueID: 3649882701
+    locked: 0
+  - name: Player
+    uniqueID: 2328600499
+    locked: 0
+  - name: Foreground
+    uniqueID: 4179575803
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
